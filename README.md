@@ -38,7 +38,7 @@
 
 ### 2. [GitHub](https://github.com/natsumo/ObjcLoginApp.git)からサンプルプロジェクトのダウンロード
 
-* この画面([GitHub](https://github.com/natsumo/ObjcLoginApp.git))の![画像10](/readme-img/010.PNG)ボタン＞![画像11](/readme-img/011.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+* この画面([GitHub](https://github.com/natsumo/ObjcLoginApp.git))の![画像10](/readme-img/010.PNG)ボタンをクリックし、さらに![画像11](/readme-img/011.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
 
 ### 3. Xcodeでアプリを起動
 
@@ -145,4 +145,4 @@ user.password = self.passwordTextField.text;
 * 同じ内容の【Swift】版もご用意しています
  * https://github.com/natsumo/SwiftPushApp
 * ニフティクラウドmobile backend の[ドキュメント（会員管理）](http://mb.cloud.nifty.com/doc/current/user/basic_usage_ios.html)をSwift版に書き換えたドキュメントをご用意していますので、ご活用ください
- * (Swiftでログイン機能をつけてみよう！)[http://qiita.com/natsumo/items/25c97182fab4db5629b1]
+ * [Swiftでログイン機能をつけてみよう！](http://qiita.com/natsumo/items/25c97182fab4db5629b1)
