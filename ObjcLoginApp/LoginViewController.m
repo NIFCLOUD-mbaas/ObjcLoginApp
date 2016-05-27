@@ -10,6 +10,7 @@
 #import "NCMB/NCMB.h"
 
 @interface LoginViewController ()
+
 // User Name
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 // Password
@@ -66,6 +67,7 @@
             NSLog(@"ログインに成功しました:%@", user.objectId);
             
         }
+        
     }];
     
 }
@@ -80,11 +82,13 @@
     [self closeKeyboad];
     
     [self performSegueWithIdentifier: @"loginToSignUp" sender: self];
+    
 }
 
 // 背景タップするとキーボードを隠す
 - (IBAction)tapScreen:(UITapGestureRecognizer *)sender {
     [self.view endEditing: YES];
+    
 }
 
 // TextFieldを空にする

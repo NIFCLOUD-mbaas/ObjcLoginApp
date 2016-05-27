@@ -10,6 +10,7 @@
 #import "NCMB/NCMB.h"
 
 @interface SignUpViewController ()
+
 // UserName
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 // Password
@@ -34,6 +35,7 @@
     [self cleanErrorLabel];
     // キーボードを閉じる
     [self closeKeyboad];
+    
 }
 
 // SignUpボタン押下時の処理
@@ -102,7 +104,7 @@
 
 // errorLabelを空にする
 - (void)cleanErrorLabel {
-    self.errorLabel.text =@"";
+    self.errorLabel.text = @"";
     
 }
 
