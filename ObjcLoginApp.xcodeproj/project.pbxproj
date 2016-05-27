@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB713E41CF6B66E005CC155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB713E31CF6B66E005CC155 /* main.m */; };
+		BDB713E71CF6B66E005CC155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB713E61CF6B66E005CC155 /* AppDelegate.m */; };
+		BDB713EA1CF6B66E005CC155 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB713E91CF6B66E005CC155 /* LoginViewController.m */; };
+		BDB713ED1CF6B66E005CC155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB713EB1CF6B66E005CC155 /* Main.storyboard */; };
+		BDB713EF1CF6B66E005CC155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB713EE1CF6B66E005CC155 /* Assets.xcassets */; };
+		BDB713F21CF6B66E005CC155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB713F01CF6B66E005CC155 /* LaunchScreen.storyboard */; };
+		BDB714021CF6C0CD005CC155 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB714011CF6C0CD005CC155 /* SignUpViewController.m */; };
+		BDB714041CF80953005CC155 /* LogoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB714031CF80953005CC155 /* LogoutViewController.m */; };
+		C83BA29DA870AAF1FCEBABEF /* libPods-ObjcLoginApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD755FDFFB44BC8BAB9037A7 /* libPods-ObjcLoginApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		576D954C1C570A1FE8F6332D /* Pods-ObjcLoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcLoginApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcLoginApp/Pods-ObjcLoginApp.release.xcconfig"; sourceTree = "<group>"; };
+		BD8DE48E1CF81113004A832C /* LogoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoutViewController.h; sourceTree = "<group>"; };
+		BD8DE48F1CF8111F004A832C /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		BDB713DF1CF6B66E005CC155 /* ObjcLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB713E31CF6B66E005CC155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB713E51CF6B66E005CC155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDB713E61CF6B66E005CC155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDB713E81CF6B66E005CC155 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BDB713E91CF6B66E005CC155 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BDB713EC1CF6B66E005CC155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB713EE1CF6B66E005CC155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB713F11CF6B66E005CC155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB713F31CF6B66E005CC155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB714011CF6C0CD005CC155 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		BDB714031CF80953005CC155 /* LogoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutViewController.m; sourceTree = "<group>"; };
+		CD755FDFFB44BC8BAB9037A7 /* libPods-ObjcLoginApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcLoginApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F6C897CC26E2A5DD201795 /* Pods-ObjcLoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcLoginApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcLoginApp/Pods-ObjcLoginApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB713DC1CF6B66E005CC155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83BA29DA870AAF1FCEBABEF /* libPods-ObjcLoginApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CC31D2F487DE8A9577CD8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6C897CC26E2A5DD201795 /* Pods-ObjcLoginApp.debug.xcconfig */,
+				576D954C1C570A1FE8F6332D /* Pods-ObjcLoginApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2276ADCAF2C4806DA232D515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD755FDFFB44BC8BAB9037A7 /* libPods-ObjcLoginApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB713D61CF6B66E005CC155 = {
+			isa = PBXGroup;
+			children = (
+				BDB713E11CF6B66E005CC155 /* ObjcLoginApp */,
+				BDB713E01CF6B66E005CC155 /* Products */,
+				01CC31D2F487DE8A9577CD8A /* Pods */,
+				2276ADCAF2C4806DA232D515 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB713E01CF6B66E005CC155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB713DF1CF6B66E005CC155 /* ObjcLoginApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB713E11CF6B66E005CC155 /* ObjcLoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDB713E51CF6B66E005CC155 /* AppDelegate.h */,
+				BDB713E61CF6B66E005CC155 /* AppDelegate.m */,
+				BDB713E81CF6B66E005CC155 /* LoginViewController.h */,
+				BDB713E91CF6B66E005CC155 /* LoginViewController.m */,
+				BD8DE48F1CF8111F004A832C /* SignUpViewController.h */,
+				BDB714011CF6C0CD005CC155 /* SignUpViewController.m */,
+				BD8DE48E1CF81113004A832C /* LogoutViewController.h */,
+				BDB714031CF80953005CC155 /* LogoutViewController.m */,
+				BDB713EB1CF6B66E005CC155 /* Main.storyboard */,
+				BDB713EE1CF6B66E005CC155 /* Assets.xcassets */,
+				BDB713F01CF6B66E005CC155 /* LaunchScreen.storyboard */,
+				BDB713F31CF6B66E005CC155 /* Info.plist */,
+				BDB713E21CF6B66E005CC155 /* Supporting Files */,
+			);
+			path = ObjcLoginApp;
+			sourceTree = "<group>";
+		};
+		BDB713E21CF6B66E005CC155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB713E31CF6B66E005CC155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB713DE1CF6B66E005CC155 /* ObjcLoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB713F61CF6B66E005CC155 /* Build configuration list for PBXNativeTarget "ObjcLoginApp" */;
+			buildPhases = (
+				6543E1D03FC8D191C51E00C2 /* 📦 Check Pods Manifest.lock */,
+				BDB713DB1CF6B66E005CC155 /* Sources */,
+				BDB713DC1CF6B66E005CC155 /* Frameworks */,
+				BDB713DD1CF6B66E005CC155 /* Resources */,
+				2CB5ABB59ED2B3E14DA58926 /* 📦 Embed Pods Frameworks */,
+				2062C703FB042C36802EE11A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcLoginApp;
+			productName = ObjcLoginApp;
+			productReference = BDB713DF1CF6B66E005CC155 /* ObjcLoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB713D71CF6B66E005CC155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "NIFTY Corporation";
+				TargetAttributes = {
+					BDB713DE1CF6B66E005CC155 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = KKEABKJHRA;
+					};
+				};
+			};
+			buildConfigurationList = BDB713DA1CF6B66E005CC155 /* Build configuration list for PBXProject "ObjcLoginApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB713D61CF6B66E005CC155;
+			productRefGroup = BDB713E01CF6B66E005CC155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB713DE1CF6B66E005CC155 /* ObjcLoginApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB713DD1CF6B66E005CC155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB713F21CF6B66E005CC155 /* LaunchScreen.storyboard in Resources */,
+				BDB713EF1CF6B66E005CC155 /* Assets.xcassets in Resources */,
+				BDB713ED1CF6B66E005CC155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2062C703FB042C36802EE11A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcLoginApp/Pods-ObjcLoginApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB5ABB59ED2B3E14DA58926 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcLoginApp/Pods-ObjcLoginApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6543E1D03FC8D191C51E00C2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB713DB1CF6B66E005CC155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB713EA1CF6B66E005CC155 /* LoginViewController.m in Sources */,
+				BDB713E71CF6B66E005CC155 /* AppDelegate.m in Sources */,
+				BDB714041CF80953005CC155 /* LogoutViewController.m in Sources */,
+				BDB714021CF6C0CD005CC155 /* SignUpViewController.m in Sources */,
+				BDB713E41CF6B66E005CC155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDB713EB1CF6B66E005CC155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB713EC1CF6B66E005CC155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB713F01CF6B66E005CC155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB713F11CF6B66E005CC155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB713F41CF6B66E005CC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB713F51CF6B66E005CC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB713F71CF6B66E005CC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F6C897CC26E2A5DD201795 /* Pods-ObjcLoginApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjcLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebackend.niftycloud.ObjcLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDB713F81CF6B66E005CC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576D954C1C570A1FE8F6332D /* Pods-ObjcLoginApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjcLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebackend.niftycloud.ObjcLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB713DA1CF6B66E005CC155 /* Build configuration list for PBXProject "ObjcLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB713F41CF6B66E005CC155 /* Debug */,
+				BDB713F51CF6B66E005CC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB713F61CF6B66E005CC155 /* Build configuration list for PBXNativeTarget "ObjcLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB713F71CF6B66E005CC155 /* Debug */,
+				BDB713F81CF6B66E005CC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB713D71CF6B66E005CC155 /* Project object */;
+}
