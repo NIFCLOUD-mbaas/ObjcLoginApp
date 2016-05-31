@@ -88,7 +88,7 @@
                                     <action selector="toSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rn1-M1-c3Z"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="errorLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imt-fw-76h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imt-fw-76h">
                                 <rect key="frame" x="163" y="467" width="274" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="XxK-nz-33h"/>
@@ -212,7 +212,7 @@
                                     <action selector="signUpBtn:" destination="96k-Q9-0Ln" eventType="touchUpInside" id="8mp-w3-jWj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="errorLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvw-l0-SZy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvw-l0-SZy">
                                 <rect key="frame" x="163" y="462" width="274" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="I4E-wW-5gU"/>

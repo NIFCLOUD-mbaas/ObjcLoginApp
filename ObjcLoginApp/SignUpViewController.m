@@ -29,12 +29,6 @@
     // Passwordをセキュリティ入力に設定する
     self.passwordTextField.secureTextEntry = true;
     self.passwordTextField_second.secureTextEntry = true;
-    // TextFieldを空にする
-    [self cleanTextField];
-    // errorLabelを空にする
-    [self cleanErrorLabel];
-    // キーボードを閉じる
-    [self closeKeyboad];
     
 }
 
