@@ -36,15 +36,19 @@
 
 ![画像5](/readme-img/005.png)
 
-### 2. [GitHub](https://github.com/natsumo/ObjcLoginApp.git)からサンプルプロジェクトのダウンロード
-
-* この画面([GitHub](https://github.com/natsumo/ObjcLoginApp.git))の![画像10](/readme-img/010.PNG)ボタンをクリックし、さらに![画像11](/readme-img/011.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+#### 2. GitHubからサンプルプロジェクトのダウンロード
+* 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
+ * __[ObjcLoginApp](https://github.com/natsumo/ObjcLoginApp/archive/master.zip)__
 
 ### 3. Xcodeでアプリを起動
+* ダウンロードしたフォルダを開き、「ObjcLoginApp.xcworkspace」をダブルクリックしてXcode開きます(白い方です)
 
-* ダウンロードしたフォルダを開き、![画像09](/readme-img/009.png)をダブルクリックしてXcode開きます　![画像08](/readme-img/008.png)
+![画像09](/readme-img/009.png)
 
 ![画像6](/readme-img/006.png)
+
+* 「ObjcLoginApp.xcodeproj」（青い方）ではないので注意してください！
+![画像08](/readme-img/008.png)
 
 ### 4. APIキーの設定
 
@@ -102,11 +106,11 @@
 [NCMBUser logInWithUsernameInBackground:self.userNameTextField.text password:self.passwordTextField.text block:^(NCMBUser *user, NSError *error) {
     if (error) {
         // ログイン失敗時の処理
-        
-    
+
+
     }else{
         // ログイン成功時の処理
-        
+
     }
 }];
 ```
@@ -126,10 +130,10 @@ user.password = self.passwordTextField.text;
 [user signUpInBackgroundWithBlock:^(NSError *error) {
     if (error) {
         // 新規登録失敗時の処理
-        
+
     } else {
         // 新規登録成功時の処理
-        
+
     }
 }];
 ```
